@@ -1,0 +1,4 @@
+#!/bin/bash
+printf "a story about who knows what\n"
+read -p "what is your name? " name
+printf "Hello %s\n" "$name"
